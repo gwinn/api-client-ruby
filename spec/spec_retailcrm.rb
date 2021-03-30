@@ -1,16 +1,17 @@
-# encoding: utf-8
+# frozen_string_literal: true
 
 require 'minitest/autorun'
 require 'minitest/spec'
+require 'json'
 
 require_relative '../lib/retailcrm'
-require_relative './bootstrap'
 
-describe Retailcrm do
-
-  before do
-    @bootstrap = Bootstrap.new
-    @api = Retailcrm.new(@bootstrap.api_url, @bootstrap.api_key)
-  end
-
+describe RetailCRM do
+  # describe 'when init client' do
+  #   it 'correctly creates object if each value is valid' do
+  #   end
+  #
+  #   it 'raise error when data is invalid' do
+  #   end
+  # end
 end
