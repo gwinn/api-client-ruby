@@ -11,5 +11,4 @@ Gem::Specification.new do |s|
   s.files        = %w[lib/retailcrm.rb lib/endpoint/user]
   s.homepage     = 'http://rubygems.org/gems/retailcrm'
   s.license      = 'MIT'
-  s.requirements = 'rest-client'
 end

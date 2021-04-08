@@ -25,8 +25,8 @@ module RetailCRM
         )
 
         http_response.body
-      rescue RestClient::ExceptionWithResponse => exception
-        exception.response
+      rescue RestClient::ExceptionWithResponse => e
+        e.response
       end
     end
   end
